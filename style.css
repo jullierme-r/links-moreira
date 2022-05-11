@@ -48,7 +48,7 @@ a {
   width: 275px;
 }
 
-.social i{
+.social i {
   color: #000;
   font-size: 2.5rem;
   margin-right: 1rem;
@@ -71,8 +71,8 @@ a {
 }
 
 .card-link:hover {
-  background-color: #195229be;
-  
+  /* background-color: #195229be; */
+  scale: 1.05;
 }
 
 .text, .contact {
@@ -96,12 +96,151 @@ a {
 
 footer {
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+  align-items: flex-end;
   width: 680px;
 }
 
-footer p {
+footer strong {
   font-size: 1.5rem;
-  font-weight: bold;
   font-family: sans-serif;
+}
+
+.bg-green {
+  background-color: #195229;
+  height: 5px;
+  width: 150px;
+}
+
+.bg-yellow {
+  background-color: #FFF214;
+  width: 550px;
+  z-index: -1;
+  right: 620px;
+}
+
+.head {
+  height: 80px;
+  position: absolute;
+  top: 232px;
+}
+
+.mid {
+  height: 290px;
+  position: absolute;
+  top: 333px;
+}
+
+.foot {
+  height: 150px;
+  position: absolute;
+  top: 643px;
+}
+
+@media screen and (max-width: 1440px) {
+  .bg-yellow {
+    right: 380px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bg-yellow {
+    right: 172px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg-yellow {
+    right: 44px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section-header,
+  .card-link,
+  footer {
+    width: 395px;
+  }
+
+  .card-link {
+    font-size: 1.2rem;
+    padding: 0 8px 0 20px;
+  }
+
+  footer strong {
+    font-size: 1.2rem;
+  }
+
+  .bg-yellow {
+    width: 300px;
+    right: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-header,
+  .card-link,
+  footer {
+    width: 355px;
+  }
+
+  .social i {
+    margin-right: .5rem;
+  }
+  
+  .card-link {
+    font-size: 1.1rem;
+    padding: 0 5px 0 15px;
+  }
+
+  footer strong {
+    font-size: 1.1rem;
+  }
+
+  .bg-yellow {
+    width: 270px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .section-header,
+  .card-link,
+  footer {
+    width: 290px;
+  }
+
+  .logo img {
+    width: 255px;
+  }
+
+  .social i {
+    margin-right: .5rem;
+  }
+  
+  .card-link {
+    font-size: .935rem;
+    padding: 0 5px;
+  }
+
+  footer strong {
+    font-size: 1.1rem;
+  }
+
+  .bg-yellow {
+    width: 220px;
+    right: 10px;
+  }
+
+  .head {
+    top: 220px;
+  }
+  
+  .mid {
+    top: 320px;
+  }
+  
+  .foot {
+    top: 630px;
+  }
 }
