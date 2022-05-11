@@ -98,6 +98,7 @@ a {
 .contact span {
   color: #EDE940;
   font-family: 'Proxima Nova Semibold';
+  font-weight: bold;
 }
 
 .fa-whatsapp {
