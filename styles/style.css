@@ -119,7 +119,7 @@ footer strong {
 .bg-green {
   background-color: #195229;
   height: 5px;
-  width: 150px;
+  width: 195px;
 }
 
 .bg-yellow {
@@ -209,6 +209,10 @@ footer strong {
     width: 300px;
     right: 15px;
   }
+
+  .bg-green {
+    width: 155px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -234,6 +238,10 @@ footer strong {
   .bg-yellow {
     width: 270px;
     right: 10px;
+  }
+
+  .bg-green {
+    width: 145px;
   }
 }
 
