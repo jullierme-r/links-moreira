@@ -4,15 +4,28 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #888;
+  background-image: url("images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 65%;
+}
+
 a {
   text-decoration: none;
 }
 
-.container {
+/* .container {
   background-color: #888;
-  width: 100vw;
-  height: 100vh;
-}
+  background-image: url("images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 65%;
+  width: 780px;
+  max-width: 100%;
+  margin: auto;
+} */
 
 .content {
   /* min-height: 100vh; */
@@ -27,20 +40,24 @@ a {
   display: flex;
   justify-content: space-between;
   width: 680px;
-  margin-top: 20px;
+  margin: 20px 0;
   /* background-color: #FFF214; */
+}
+
+.logo img {
+  width: 275px;
 }
 
 .social i{
   color: #000;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-right: 1rem;
 }
 
 .card-link {
   background-color: #195229;
   width: 680px;
-  height: 70px;
+  height: 65px;
   min-width: 300px;
   border-radius: 50px 0px 0px 50px;
   display: flex;
@@ -75,4 +92,16 @@ a {
 
 .fa-whatsapp {
   font-size: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: end;
+  width: 680px;
+}
+
+footer p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
 }
