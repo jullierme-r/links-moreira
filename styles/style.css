@@ -216,33 +216,51 @@ footer strong {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 395px) {
   .section-header,
   .card-link,
   footer {
-    width: 355px;
+    width: 370px;
   }
 
   .social i {
     margin-right: .5rem;
-  }
-  
-  .card-link {
-    font-size: 1.1rem;
-    padding: 0 5px 0 15px;
   }
 
   footer strong {
     font-size: 1.1rem;
   }
 
+  .card-link {
+    font-size: 1.125rem;
+    padding: 0 5px 0 15px;
+  }  
+
   .bg-yellow {
-    width: 270px;
-    right: 10px;
+    width: 280px;
+    right: 13px;
   }
 
   .bg-green {
     width: 145px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-header,
+  .card-link,
+  footer {
+    width: 355px;
+  }
+  
+  .card-link {
+    font-size: 1.1rem;
+    padding: 0 5px 0 15px;
+  }  
+
+  .bg-yellow {
+    width: 270px;
+    right: 10px;
   }
 }
 
