@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('fonts/ProximaNova-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Condensed\ Semibold.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Extrabold';
+  src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Condensed\ Extrabold.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #888;
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 65%;
+  font-family: 'Proxima Nova';
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  margin: 20px 0;
+}
+
+.logo img {
+  width: 275px;
+}
+
+.social i {
+  color: #000;
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+.card-link {
+  background-color: #195229;
+  width: 680px;
+  height: 65px;
+  min-width: 300px;
+  border-radius: 50px 0px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  padding: 0 8px 0 25px;
+  margin-bottom: 5px;
+  transition: .3s ease-in;
+}
+
+.card-link:hover {
+  background-color: #195229f2;
+  transform: scale(1.05);
+}
+
+.text, .contact {
+  color: #fff;
+}
+
+.contact p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contact span {
+  color: #EDE940;
+  font-family: 'Proxima Nova Semibold';
+}
+
+.fa-whatsapp {
+  font-size: 3rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 680px;
+}
+
+footer strong {
+  font-family: 'Proxima Nova Extrabold';
+  font-size: 1.5rem;
+}
+
+.bg-green {
+  background-color: #195229;
+  height: 5px;
+  width: 150px;
+}
+
+.bg-yellow {
+  background-color: #FFF214;
+  width: 550px;
+  z-index: -1;
+  right: 620px;
+}
+
+.head {
+  height: 80px;
+  position: absolute;
+  top: 232px;
+}
+
+.mid {
+  height: 290px;
+  position: absolute;
+  top: 333px;
+}
+
+.foot {
+  height: 150px;
+  position: absolute;
+  top: 643px;
+}
+
+@media screen and (max-width: 1440px) {
+  .bg-yellow {
+    right: 380px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .bg-yellow {
+    right: 340px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .bg-yellow {
+    right: 300px;
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  .bg-yellow {
+    right: 236px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bg-yellow {
+    right: 172px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bg-yellow {
+    right: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg-yellow {
+    right: 44px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section-header,
+  .card-link,
+  footer {
+    width: 395px;
+  }
+
+  .card-link {
+    font-size: 1.2rem;
+    padding: 0 8px 0 20px;
+  }
+
+  footer strong {
+    font-size: 1.2rem;
+  }
+
+  .bg-yellow {
+    width: 300px;
+    right: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-header,
+  .card-link,
+  footer {
+    width: 355px;
+  }
+
+  .social i {
+    margin-right: .5rem;
+  }
+  
+  .card-link {
+    font-size: 1.1rem;
+    padding: 0 5px 0 15px;
+  }
+
+  footer strong {
+    font-size: 1.1rem;
+  }
+
+  .bg-yellow {
+    width: 270px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .section-header,
+  .card-link,
+  footer {
+    width: 290px;
+  }
+
+  .logo img {
+    width: 255px;
+  }
+
+  .social i {
+    margin-right: .5rem;
+  }
+  
+  .card-link {
+    font-size: .935rem;
+    padding: 0 5px;
+  }
+
+  footer strong {
+    font-size: 1.1rem;
+  }
+
+  .bg-yellow {
+    width: 220px;
+    right: 10px;
+  }
+
+  .head {
+    top: 220px;
+  }
+  
+  .mid {
+    top: 320px;
+  }
+  
+  .foot {
+    top: 630px;
+  }
+}
