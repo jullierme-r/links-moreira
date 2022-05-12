@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('fonts/ProximaNova-Regular.otf') format('opentype');
+  src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: fallback;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Proxima Nova Semibold';
-  src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Condensed\ Semibold.otf') format('opentype');
+  src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Semibold.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: fallback;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Proxima Nova Extrabold';
-  src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Condensed\ Extrabold.otf') format('opentype');
+  src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Extrabold.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
   font-display: fallback;
@@ -118,6 +118,7 @@ footer {
 footer strong {
   font-family: 'Proxima Nova Extrabold';
   font-size: 1.5rem;
+  font-weight: bolder;
 }
 
 .bg-green {
