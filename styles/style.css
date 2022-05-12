@@ -5,7 +5,7 @@
   src: url('fonts/ProximaNova-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-  font-display: fallback
+  font-display: fallback;
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Condensed\ Semibold.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
-  font-display: fallback
+  font-display: fallback;
 }
 
 @font-face {
@@ -21,7 +21,7 @@
   src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Condensed\ Extrabold.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
-  font-display: fallback
+  font-display: fallback;
 }
 
 * {
