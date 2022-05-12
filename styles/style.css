@@ -36,7 +36,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 65%;
-  font-family: 'Proxima Nova Alt';
+  font-family: 'Proxima Nova Alt', sans-serif;
 }
 
 a {
@@ -62,10 +62,29 @@ a {
   width: 275px;
 }
 
+.social {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .social i {
   color: #000;
   font-size: 2.5rem;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
+}
+
+.social i:hover {
+  color: #195229;
+}
+
+.social strong {
+  color: #195229;
+  text-transform: uppercase;
+}
+
+.social strong:hover {
+  color: #000;
 }
 
 .card-link {
@@ -110,8 +129,8 @@ a {
 
 footer {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
   width: 680px;
 }
 
@@ -119,6 +138,12 @@ footer strong {
   font-family: 'Proxima Nova Alt';
   font-size: 1.5rem;
   font-weight: 800;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .bg-green {
@@ -201,6 +226,10 @@ footer strong {
     width: 395px;
   }
 
+  .logo img {
+    width: 255px;
+  }
+
   .card-link {
     font-size: 1.2rem;
     padding: 0 8px 0 20px;
@@ -215,6 +244,18 @@ footer strong {
     right: 13px;
   }
 
+  .head {
+    top: 220px;
+  }
+  
+  .mid {
+    top: 320px;
+  }
+  
+  .foot {
+    top: 630px;
+  }
+
   .bg-green {
     width: 155px;
   }
@@ -227,8 +268,12 @@ footer strong {
     width: 370px;
   }
 
-  .social i {
-    margin-right: .5rem;
+  .logo img {
+    width: 235px;
+  }
+
+  .social {
+    font-size: .9rem;
   }
 
   footer strong {
@@ -243,6 +288,18 @@ footer strong {
   .bg-yellow {
     width: 280px;
     right: 13px;
+  }
+
+  .head {
+    top: 210px;
+  }
+  
+  .mid {
+    top: 310px;
+  }
+  
+  .foot {
+    top: 620px;
   }
 
   .bg-green {
@@ -276,20 +333,20 @@ footer strong {
   }
 
   .logo img {
-    width: 255px;
-  }
-
-  .social i {
-    margin-right: .5rem;
+    width: 175px;
   }
   
   .card-link {
-    font-size: .935rem;
+    font-size: .92rem;
     padding: 0 5px;
   }
 
   footer strong {
-    font-size: 1.1rem;
+    font-size: .8rem;
+  }
+
+  .bg-green {
+    width: 105px;
   }
 
   .bg-yellow {
@@ -298,14 +355,14 @@ footer strong {
   }
 
   .head {
-    top: 220px;
+    top: 175px;
   }
   
   .mid {
-    top: 320px;
+    top: 275px;
   }
   
   .foot {
-    top: 630px;
+    top: 585px;
   }
 }
