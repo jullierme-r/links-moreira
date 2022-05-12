@@ -1,25 +1,25 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'Proxima Nova';
+  font-family: 'Proxima Nova Alt';
   src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Regular.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: fallback;
 }
 
 @font-face {
-  font-family: 'Proxima Nova Semibold';
+  font-family: 'Proxima Nova Alt';
   src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Semibold.otf') format('opentype');
-  font-weight: 300;
+  font-weight: 600;
   font-style: normal;
   font-display: fallback;
 }
 
 @font-face {
-  font-family: 'Proxima Nova Extrabold';
+  font-family: 'Proxima Nova Alt';
   src: url('fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Extrabold.otf') format('opentype');
-  font-weight: 900;
+  font-weight: 800;
   font-style: normal;
   font-display: fallback;
 }
@@ -36,7 +36,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 65%;
-  font-family: 'Proxima Nova';
+  font-family: 'Proxima Nova Alt';
 }
 
 a {
@@ -100,8 +100,8 @@ a {
 
 .contact span {
   color: #EDE940;
-  font-family: 'Proxima Nova Semibold';
-  font-weight: bold;
+  font-family: 'Proxima Nova Alt';
+  font-weight: 600;
 }
 
 .fa-whatsapp {
@@ -116,9 +116,9 @@ footer {
 }
 
 footer strong {
-  font-family: 'Proxima Nova Extrabold';
+  font-family: 'Proxima Nova Alt';
   font-size: 1.5rem;
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 .bg-green {
