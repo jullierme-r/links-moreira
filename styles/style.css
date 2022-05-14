@@ -168,6 +168,10 @@ footer {
 }
 
 @media screen and (max-width: 1440px) {
+  body::after {
+    height: 900px;
+  }
+
   .bg-yellow {
     right: 380px;
   }
@@ -192,6 +196,10 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+  body::after {
+    background-position: 100% 5%;
+  }
+
   .bg-yellow {
     right: 172px;
   }
@@ -216,8 +224,12 @@ footer {
     width: 395px;
   }
 
+  body::after {
+    background-position: top;
+  }
+  
   .logo img {
-    width: 275px;
+    width: 245px;
   }
 
   .card-link {
@@ -231,15 +243,15 @@ footer {
   }
 
   .head {
-    top: 225px;
+    top: 205px;
   }
   
   .mid {
-    top: 335px;
+    top: 315px;
   }
   
   .foot {
-    top: 653px;
+    top: 635px;
   }
 }
 
@@ -313,6 +325,10 @@ footer {
   .card-link {
     font-size: .875rem;
     padding: 0 5px;
+  }
+
+  .fa-whatsapp {
+    font-size: 2.2rem;
   }
 
   .social {
