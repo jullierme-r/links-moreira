@@ -58,14 +58,14 @@ a {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
 
 .section-header {
   display: flex;
   justify-content: flex-end;
   width: 680px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .logo img {
@@ -152,24 +152,24 @@ footer {
 .head {
   height: 80px;
   position: absolute;
-  top: 240px;
+  top: 220px;
 }
 
 .mid {
-  height: 290px;
+  height: 360px;
   position: absolute;
-  top: 350px;
+  top: 320px;
 }
 
 .foot {
   height: 150px;
   position: absolute;
-  top: 670px;
+  top: 700px;
 }
 
 @media screen and (max-width: 1440px) {
   body::after {
-    height: 900px;
+    height: 1080px;
   }
 
   .bg-yellow {
@@ -226,6 +226,7 @@ footer {
 
   body::after {
     background-position: top;
+    height: 910px;
   }
   
   .logo img {
@@ -233,9 +234,9 @@ footer {
   }
 
   .card-link {
-    font-size: 1.2rem;
-    padding: 0 8px 0 20px;
-  }
+    font-size: 1.125rem;
+    padding: 0 5px 0 15px;
+  } 
 
   .bg-yellow {
     width: 300px;
@@ -243,15 +244,15 @@ footer {
   }
 
   .head {
-    top: 205px;
+    top: 185px;
   }
   
   .mid {
-    top: 315px;
+    top: 285px;
   }
   
   .foot {
-    top: 635px;
+    top: 665px;
   }
 }
 
@@ -264,12 +265,11 @@ footer {
 
   .logo img {
     width: 255px;
-  }
+  }  
 
   .card-link {
-    font-size: 1.125rem;
-    padding: 0 5px 0 15px;
-  }  
+    font-size: 1.1rem;
+  } 
   
   .social {
     font-size: .9rem;
@@ -281,15 +281,15 @@ footer {
   }
 
   .head {
-    top: 210px;
+    top: 191px;
   }
   
   .mid {
-    top: 320px;
+    top: 290px;
   }
   
   .foot {
-    top: 640px;
+    top: 671px;
   }
 }
 
@@ -301,8 +301,8 @@ footer {
   }
   
   .card-link {
-    font-size: 1.1rem;
-    padding: 0 5px 0 15px;
+    font-size: 1.05rem;
+    padding: 0 5px 0 10px;
   }  
 
   .bg-yellow {
@@ -318,6 +318,10 @@ footer {
     width: 290px;
   }
 
+  body::after {
+    height: 840px;
+  }
+
   .logo img {
     width: 200px;
   }
@@ -325,6 +329,7 @@ footer {
   .card-link {
     font-size: .875rem;
     padding: 0 5px;
+    height: 60px;
   }
 
   .fa-whatsapp {
@@ -341,14 +346,17 @@ footer {
   }
 
   .head {
-    top: 180px;
+    top: 160px;
+    height: 75px;
   }
   
   .mid {
-    top: 288px;
+    top: 255px;
+    height: 333px;
   }
   
   .foot {
-    top: 608px;
+    top: 610px;
+    height: 140px;
   }
 }
